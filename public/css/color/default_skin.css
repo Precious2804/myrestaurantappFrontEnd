@@ -1,0 +1,72 @@
+a,
+.color,
+.about-us .nav-tabs > li > a:hover, a:active, a:focus,
+.about-us .nav-tabs > li.active > a,
+.about-us .nav-tabs > li.active > a:hover, a:active, a:focus,
+.about-us .nav-tabs > li.active > a:focus,
+.gallery .gallery-filter .filter:hover,
+.gallery .gallery-filter .filter.active,
+.single-testmonial .testmonial-info .via,
+.pricing .plan .plan-head > h2,
+.about .title-upper,
+.video .title-upper,
+.section .h2:after,
+.post-info a {
+  color: #0e3aec;
+}
+a:hover, a:active, a:focus {
+	color: #0e3aec;
+}
+.bg-color, .onoffswitch-checkbox:checked + .onoffswitch-label,
+.loader,
+.button,
+.fa,
+.header .navbar-default .navbar-toggle:focus,
+.header .navbar-default .navbar-toggle:hover,
+.about-us .accordion-item.active h4.accordion-header,
+.our-menu .our-menu-about .our-menu-prix,
+.top-bar .contact span > i.fa,
+.datepicker td.active,
+.datepicker td.active:hover,
+.datepicker td.active:hover,
+.datepicker td.active:hover:hover,
+.datepicker td.active:focus,
+.datepicker td.active:hover:focus,
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active,
+.datepicker td.active.disabled,
+.datepicker td.active:hover.disabled,
+.datepicker td.active[disabled],
+.datepicker td.active:hover[disabled],
+.blog-content .sidebar h4:before {
+  background-color: #0e3aec;
+}
+.section .h2:before,
+.section .h2:after,
+.header .navbar-default .navbar-toggle,
+.header .navbar-default .navbar-toggle .icon-bar,
+.two-cols .item:before,
+.gallery .gallery-filter .filter:after,
+.reservation  input:focus,
+.reservation  textarea:focus,
+footer .col-wrapper h3,
+.header .navbar-default .navbar-nav>li>a:hover, a:active, a:focus,
+.header .navbar-default .navbar-nav>.active>a,
+.header .navbar-default .navbar-nav>.active>a:focus,
+.header .navbar-default .navbar-nav>.active>a:hover, a:active, a:focus,
+.border-color,
+.onoffswitch-checkbox:checked + .onoffswitch-label,
+.onoffswitch-checkbox:checked + .onoffswitch-label:before,
+blockquote {
+  border-color: #0e3aec;
+}
+.about-us .nav-tabs > li > a:after,
+.about-us .nav-tabs > li > a:hover, a:active, a:focus,
+.about-us .nav-tabs > li > a:focus,
+.about-us .nav-tabs > li.active > a,
+.about-us .nav-tabs > li.active > a:hover, a:active, a:focus,
+.about-us .nav-tabs > li.active > a:focus {
+	border-top-color: #0e3aec;
+}

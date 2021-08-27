@@ -1,0 +1,212 @@
+/**
+ *  =================================================================================================
+ *
+ *  Author:      EvenThemes
+ *  Template:    Restora - A Responsive Multipurpose Restaurant Or Cafe Theme
+ *  Version:     1.2
+ *
+ *  =================================================================================================
+ */
+
+.theme_builder {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    text-align: center;
+    left: -270px;
+    width: 270px;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    background: #fff;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    opacity: 0;
+    filter: Alpha(opacity=0);
+    -webkit-transition: all 800ms ease-in-out 0s;
+    -moz-transition: all 800ms ease-in-out 0s;
+    -ms-transition: all 800ms ease-in-out 0s;
+    -o-transition: all 800ms ease-in-out 0s;
+    transition: all 800ms ease-in-out 0s;
+}
+.theme_builder.show {
+    left: 0;
+}
+.theme_builder .fa {
+    position: absolute;
+    display: block;
+    background: #fff;
+    margin: 0;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 25px;
+    top: 50px;
+    right: -46px;
+    cursor: pointer;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    -webkit-box-shadow: 2px 0 5px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 2px 0 5px rgba(0, 0, 0, .1);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, .1);
+}
+.theme_builder h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 16px;
+    -webkit-border-radius: 0 3px 0 0;
+    -moz-border-radius: 0 3px 0 0;
+    border-radius: 0 3px 0 0;
+}
+.theme_builder h4 {
+    font-size: 16px;
+    margin: 0;
+    padding: 15px 0 20px;
+    color: #999;
+    text-transform: uppercase;
+}
+.color-options {
+    padding: 10px 15px 0;
+}
+.color-options ul > li {
+    display: inline-block;
+    padding: 5px 4px;
+}
+.color-options ul > li > button {
+    display: block;
+    width: 35px;
+    height: 35px;
+    border: 0;
+    outline: none;
+}
+.color-options .reset {
+    padding: 20px 0;
+    -webkit-border-radius: 0 0 3px 0;
+    -moz-border-radius: 0 0 3px 0;
+    border-radius: 0 0 3px 0;
+}
+.color-options .reset .button {
+    padding: 4px 26px;
+    margin: 0;
+    outline: none;
+    background-color: #ffffff;
+    color: #16d428 !important;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid #16d428;
+}
+.brown {
+    background-color: #8f5340;
+}
+.gray {
+    background-color: #a5b3b4;
+}
+.green_lighter {
+    background-color: #00D793;
+}
+.red {
+    background-color: #FA373D;
+}
+.red_dark {
+    background-color: #990033;
+}
+.orange_dark {
+    background-color: #EE5A00;
+}
+.pink {
+    background-color: #F6107C;
+}
+.turqouise {
+    background-color: #0dc0c0;
+}
+.purple {
+    background-color: #80397B;
+}
+.blue {
+    background-color: #00ADEF;
+}
+.green_darker {
+    background-color: #026466;
+}
+.green_dark {
+    background-color: #87C500;
+}
+.light_brown {
+    background-color: #C49E60;
+}
+.green_light {
+    background-color: #43d854;
+}
+.gold {
+    background-color: #85754d;
+}
+.orange {
+    background-color: #ff9900;
+}
+.layout {
+    padding-bottom: 15px;
+}
+.layout-options {
+    width: 100%;
+}
+.layout-options li {
+    float: left;
+    width: 33.333333%;
+    font-weight: 600;
+}
+.onoffswitch {
+    position: relative;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 20px;
+    padding: 0;
+    line-height: 20px;
+    border: 2px solid #CCCCCC;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block;
+    width: 20px;
+    margin: 0px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 30px;
+    border: 2px solid #CCCCCC;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px;
+}
+@media (max-width: 480px) {
+    .color-switcher {
+        display: none;
+    }
+}

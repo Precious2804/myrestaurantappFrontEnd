@@ -5,7 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!--===================[ Favicon ]=================-->
+	<link rel="icon" href="images/favicons/favicon.png" type="image/png" sizes="16x16">
+	<!--==============[ Apple Touch Icons ]============-->
+	<link rel="apple-touch-icon" href="images/favicons/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicons/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicons/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicons/touch-icon-ipad-retina.png">
+
+
+	<!--=================================================>
+	<===================| THEME STYLES |=================>
+	<==================================================-->
+
+	<!--=============[ Bootstrap CSS ]=============-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+ 
+	<!--=============[ Google fonts ]=============-->
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+
+	<!--=============[ Font Icons ]=============-->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/flaticon.css">
+
+	<!--=============[  Magnific Popup ]=============-->
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+
+	<!--=============[  Datepicker CSS ]=============-->
+	<link rel="stylesheet" type="text/css" href="css/datepicker.css">
+
+	<!--=============[  owlCarousel CSS ]=============-->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+
+	<!--=============[ Custom CSS ]=============-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--=============[ Style of Custom Colors ]=============-->
+	<link rel="stylesheet" type="text/css" href="css/color/default_skin.css">
+
+	<!--=============[ Color Switcher Colors ]=============-->
+	<link rel="stylesheet" type="text/css" href="css/switcher.css">
+
+    <title>Restora</title>
   </head>
   <body>
     <noscript>
@@ -14,4 +56,57 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <!--==================================================>
+<=================| INCLUDE JS FILES |================>
+<===================================================-->
+
+<!-- Placed at the end of the document so the pages load faster -->
+
+    <!--=============[ jQuery-1.12.2 ]=============-->
+    <script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+
+    <!--============[ jQuery Easing ]============-->
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+
+    <!--=============[ Bootstrap JS ]=============-->
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!--=============[ Datepicker JS ]=============-->
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+
+    <!--=============[ MixitUp JS ]=============-->
+    <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+
+    <!--=============[ CounterUp JS ]=============-->
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+
+    <!--=============[ Magnific Popup core JS ]=============-->
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+
+    <!--=============[ jQuery Placeholder JS ]=============-->
+    <script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+
+    <!--=============[ WayPoints JS ]=============-->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+
+    <!--=============[ owlCarousel JS ]=============-->
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+
+    <!--=============[  Google Map ]=============-->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA1vAzZpKh9vsQvF3e4MeClkyYB-MWtnA&amp;callback=initMap"></script>
+	
+	<!--=============[ Custom js ]=============-->
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-85270053-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
 </html>
